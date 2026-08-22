@@ -10,14 +10,14 @@
     ],
     "require": {
         "php": "^8.4",
-        "kinetis/framework": "dev-main",
-        "kinetis/migrations": "dev-main",
-        "kinetis/persistence": "dev-main",
-        "kinetis/cache-redis": "dev-main",
-        "kinetis/query-builder": "dev-main",
-        "kinetis/queue": "dev-main",
-        "kinetis/mcp": "dev-main",
-        "kinetis/queue-redis": "dev-main",
+        "kinetis/framework": "^1.36.0",
+        "kinetis/migrations": "^1.4.0",
+        "kinetis/persistence": "^1.13.0",
+        "kinetis/cache-redis": "^1.2.1",
+        "kinetis/query-builder": "^1.5.0",
+        "kinetis/queue": "^1.8.0",
+        "kinetis/mcp": "^1.1.2",
+        "kinetis/queue-redis": "^1.0.1",
         "league/plates": "^3.6.0",
         "monolog/monolog": "^3.10.0",
         "psr/http-message": "^2.0",
@@ -38,40 +38,6 @@
             "App\\Tests\\": "tests/"
         }
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../framework"
-        },
-        {
-            "type": "path",
-            "url": "../migrations"
-        },
-        {
-            "type": "path",
-            "url": "../persistence"
-        },
-        {
-            "type": "path",
-            "url": "../cache-redis"
-        },
-        {
-            "type": "path",
-            "url": "../query-builder"
-        },
-        {
-            "type": "path",
-            "url": "../queue"
-        },
-        {
-            "type": "path",
-            "url": "../mcp"
-        },
-        {
-            "type": "path",
-            "url": "../queue-redis"
-        }
-    ],
     "config": {
         "sort-packages": true
     },
